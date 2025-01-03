@@ -1,0 +1,41 @@
+html,
+body {
+  height: 100%;
+  background-color: azure;
+}
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.headings {
+  text-align: center;
+}
+.dice {
+  margin: auto;
+}
+#dice6,
+#dice10 {
+  border: none;
+  background: none;
+  margin: 30px;
+}
+#dice6:hover,
+#dice10:hover {
+  cursor: pointer;
+  border: 1px solid black;
+  background: ivory;
+}
+p {
+  text-align: center;
+  letter-spacing: 1px;
+  text-transform: capitalize;
+}
+
+#dice6:active,
+#dice10:active {
+  background-color: beige;
+}
+#result {
+  font-size: 30px;
+}
